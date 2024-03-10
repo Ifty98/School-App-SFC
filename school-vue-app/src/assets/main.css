@@ -1,0 +1,106 @@
+/* Set the background color for the entire body */
+body {
+    background-color: rgb(50, 90, 92);
+}
+
+.Test {
+    text-align: center;
+    /* Rounded corners */
+    padding: 2%;
+}
+
+/* Style for h1 elements */
+h1 {
+    color: rgb(11, 211, 177);
+    text-shadow: 3px 3px rgb(13, 16, 216);
+    font-family: fantasy;
+}
+
+/* Style for elements with class 'add-to-cart-button' */
+.add-to-cart-button {
+    color: rgb(4, 8, 12);
+    background-color: rgb(3, 15, 11);
+    border: none;
+    border-radius: 20px;
+    /* Rounded corners */
+    border: none;
+    box-shadow: 3px 3px 3px 3px rgb(0, 0, 0);
+    color: aliceblue;
+    cursor: pointer;
+    /* Change cursor to a hand pointer on hover */
+    width: 150px;
+    height: 50px;
+}
+
+/* Hover effect for elements with class 'add-to-cart-button' */
+.add-to-cart-button:hover {
+    background-color: rgb(8, 139, 102);
+    /* Change background color on hover */
+}
+
+/* Style for h3 elements */
+h3 {
+    color: aquamarine;
+}
+
+/* Style for label elements */
+label {
+    color: rgb(12, 206, 223);
+}
+
+/* Style for elements with class 'card' */
+.card {
+    border-end-end-radius: 30px;
+    border-width: 5px;
+    border-bottom-color: aqua;
+    border-top-color: azure;
+    border-left-color: azure;
+    border-right-color: aqua;
+}
+
+/* Style for elements with class 'shopping-cart' */
+.shopping-cart {
+    width: 150px;
+    height: 50px;
+    background-color: darkcyan;
+    cursor: pointer;
+    /* Change cursor to a hand pointer on hover */
+    color: aliceblue;
+    border-radius: 25%;
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgb(10, 212, 178);
+}
+
+/* Hover effect for elements with class 'shopping-cart' */
+.shopping-cart:hover {
+    background-color: rgb(6, 110, 142);
+}
+
+/* Style for elements with class 'checkOutButton' */
+.checkOutButton {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(76, 0, 139);
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 25%;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(21, 1, 37);
+    margin-top: 10px;
+}
+
+/* Hover effect for elements with class 'checkOutButton' */
+.checkOutButton:hover {
+    background-color: rgb(10, 76, 143);
+}
+
+/* Style for h2 elements */
+h2 {
+    color: rgb(11, 211, 177);
+
+}
+
+.cartMessage {
+    font-size: 20px;
+    color: azure;
+}
