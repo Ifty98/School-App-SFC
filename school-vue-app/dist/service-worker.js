@@ -1,11 +1,11 @@
 const CACHE_NAME = 'my-cache-v1';
 const urlsToCache = [
   '/index.html',
-  './src/assets/main.css',
-  './src/main.js',
-  './src/App.vue',
-  './src/components/Checkout.vue',
-  './src/components/ProductList.vue'
+  '/src/assets/main.css',
+  '/src/main.js',
+  '/src/App.vue',
+  '/src/components/Checkout.vue',
+  '/src/components/ProductList.vue'
   // Add other local files you want to cache
 ];
 
