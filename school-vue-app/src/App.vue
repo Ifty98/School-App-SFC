@@ -89,6 +89,12 @@ export default {
     Checkout,
   },
 
+  created: function () {
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("service-worker.js");
+        }
+  },
+
   //run functions when the app is loaded
   mounted() {
     this.getLessons();
