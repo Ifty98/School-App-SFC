@@ -4,7 +4,7 @@ import App from './App.vue'
 import './assets/main.css'
 
 // Check if the browser supports service workers
-/*
+
 if ('serviceWorker' in navigator) {
   // Register the service worker
   navigator.serviceWorker.register('/service-worker.js')
@@ -15,7 +15,7 @@ if ('serviceWorker' in navigator) {
       console.error('Service Worker registration failed:', error);
     });
 }
-*/
+
 
 Vue.config.productionTip = false
 
