@@ -1,6 +1,6 @@
 const CACHE_NAME = 'my-cache-v1';
 const urlsToCache = [
-  'index.html',
+  '/index.html',
   './src/assets/main.css',
   './src/main.js',
   './src/App.vue',
