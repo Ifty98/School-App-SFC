@@ -1,0 +1,33 @@
+{
+    "name": "My School App PWA",
+    "short_name": "Schooolapp",
+    "description": "My online school app",
+    "icons": [
+        {
+            "src": "/smallIcon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/bigIcon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/desktop.png",
+            "sizes": "1920x1080",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/mobile.png",
+            "sizes": "750x1334",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "background_color": "#353b48"
+}
